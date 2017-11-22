@@ -2,7 +2,7 @@ from timeit import default_timer as time
 from numba import cuda
 import numpy as np
 
-bpg = 256
+bpg = 100
 tpb = 32
 
 n = bpg * tpb
